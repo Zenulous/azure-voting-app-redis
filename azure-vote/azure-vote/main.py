@@ -20,7 +20,7 @@ if ("VOTE2VALUE" in os.environ and os.environ['VOTE2VALUE']):
 else:
     button2 = app.config['VOTE2VALUE']
 
-title = "Azure Voting App 2"
+title = "Azure Voting App"
 
 # Redis configurations
 redis_server = os.environ['REDIS']
